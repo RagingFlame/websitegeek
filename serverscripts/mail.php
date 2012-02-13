@@ -109,25 +109,24 @@ $body = $newEmail->body();
 
 if ($from && $subject && $body) {
 
-    $url = 'http://demos.rflab.co.za/index.php?option=com_toarticle&view=toarticle&email='.$from.'&task=save';
+    $url = 'http://demos.rflab.co.za/index.php?option=com_toarticle&view=toarticle&title=' . $subject . '&email=qawe@rflab.co.za&task=save';
     $ch = curl_init($url);
     $success = curl_exec ($ch);
     curl_close($ch);
     
     if ($success) {
     
-        $newEmail->sendMail('support@rflab.co.za', $from, 'Article created', 'You have successifully created a new article for your website.');
+        $newEmail->sendMail('support@rflab.co.za', 'qawe@rflab.co.za', 'Article created', 'You have successifully created a new article for your website.');
         
-    } else{
+    } else {
     
-        $newEmail->sendMail('support@rflab.co.za', $from, 'Article not created', 'Creating a new article has failed, contact our support team if you need assistance.');
+        $newEmail->sendMail('support@rflab.co.za', 'qawe@rflab.co.za', 'Article not created', 'Creating a new article has failed, contact our support team if you need assistance.');
         
     }
     
 } else {
 
-    $newEmail->sendMail('support@rflab.co.za', $from, 'Your email contains errors', 'You Email format is not supported by our system please refer to the how to guide.');
+    $newEmail->sendMail('support@rflab.co.za', 'qawe@rflab.co.za', 'Your email contains errors', 'You Email format is not supported by our system please refer to the how to guide.');
  
 }
-
 ?>
