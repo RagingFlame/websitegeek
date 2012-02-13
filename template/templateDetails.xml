@@ -23,7 +23,9 @@
     
     <positions>
 	    <position>top</position>
-	     <position>banner</position>
+	    <position>banner</position>
+        <position>footer</position>
+        <position>clients</position>
 	    <position>sidebar</position>
 	    <position>user1</position>
 	    <position>user2</position>

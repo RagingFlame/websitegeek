@@ -86,7 +86,13 @@ $user =& JFactory::getUser();
           <?php if($this->countModules('user2')) : ?>
             <jdoc:include type="modules" name="user2" style="XHTML" />
           <?php endif; ?>
-        </section><!-- section#content -->	
+        </section><!-- section#content -->
+        
+        <?php if($this->countModules('clients')) : ?>
+		<section id="clients" style="width: 950px; padding: 5px">
+            <jdoc:include type="modules" name="clients" style="XHTML" />
+        </section><!-- section#clients --> 
+        <?php endif; ?>
     </div>
     
     <footer class="container footer">

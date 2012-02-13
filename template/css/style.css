@@ -361,9 +361,7 @@ ul {
   clear: both;
   text-align: center;
   border-bottom: solid 1px #4996b8;
-  box-shadow: 
-  inset 0 2px 3px rgba(0,0,0,0.15),
-  1px 1px 3px rgba(0,0,0,0.3);
+  box-shadow: inset 0 2px 3px rgba(0,0,0,0.15), 1px 1px 3px rgba(0,0,0,0.3);
   text-align: left;
   font-size: 16px;
   position: relative;
@@ -545,8 +543,7 @@ ul {
 
 #com-form-login  fieldset {
 	border: 1px solid #BBBBBB;
-	padding-top: 20px; 
-    padding-bottom: 20px;
+	padding: 20px 0px 20px 10px; 
 	color: rgb(0, 0, 0);
 	-moz-border-radius: 4px 4px 4px 4px; 
 }
@@ -557,7 +554,7 @@ ul {
 
 #com-form-login  #login-links li {    
     padding-left: 120px;
-    line-height:120%;
+    line-height: 20px;
 }
 
 #com-form-login  fieldset legend {
@@ -659,7 +656,9 @@ textarea .error, #postaladd.error, #comments.error  {
     margin-left: 120px;
 }
 
-
+#clients a {
+  margin-right: 20px;
+}
 
 .footer {
    margin-top: 50px;
