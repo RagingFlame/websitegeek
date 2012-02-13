@@ -557,6 +557,7 @@ ul {
 
 #com-form-login  #login-links li {    
     padding-left: 120px;
+    line-height:120%;
 }
 
 #com-form-login  fieldset legend {
