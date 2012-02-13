@@ -89,7 +89,7 @@ $user =& JFactory::getUser();
         </section><!-- section#content -->	
     </div>
     
-    <footer class="container" style="margin-top: 20px">
+    <footer class="container footer">
         <jdoc:include type="modules" name="footer" style="XHTML" />
     </footer>
   </div> <!--! end of #container -->

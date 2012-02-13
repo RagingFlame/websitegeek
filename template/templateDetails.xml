@@ -36,8 +36,8 @@
 		  <option value="1">Yes</option>
 		  <option value="0">No</option>
 	    </param>
-	    <param name="mainWidth" type="text" default="500" size="50" label="Content area width" description="Content area width" />
-        <param name="sidebarWidth" type="text" default="400" size="50" label="Sidebar width" description="Sidebar width." />
+	    <param name="mainWidth" type="text" default="600" size="50" label="Content area width" description="Content area width" />
+        <param name="sidebarWidth" type="text" default="300" size="50" label="Sidebar width" description="Sidebar width." />
 	    <param name="loginText" type="textarea" default="Already a member?  access your account now!" label="Login bubble text" rows="3" cols="35" />			    	
 	    <param name="signupText" type="textarea" default="Not a member yet?  Well get on it and access great SEO resources!" label="Signup bubble text" rows="3" cols="35" />
 	    <param type="spacer" default="&lt;h3&gt;General template features&lt;/h3&gt;" />	

@@ -138,9 +138,10 @@ fieldset { border: 0; margin: 0; padding: 0; }
 /* 
  * 1. Correct color not inheriting in IE6/7/8/9 
  * 2. Correct alignment displayed oddly in IE6/7 
- */
-
+ 
+Q edit */
 legend { border: 0; *margin-left: -7px; padding: 0; }
+
 
 /* Indicate that 'label' will shift focus to the associated form element */
 label { cursor: pointer; }
@@ -485,7 +486,7 @@ ul {
   padding-left: 85px;
   margin: 0px;
 }
-.main-panel li h3 {
+.main-panel li h3, #sidebar h3 {
   font-size: 16px;
   font-weight: bold;
   color: #474747;
@@ -525,6 +526,147 @@ ul {
     display: block;
     color: #ababab;
     margin-top: 9px;
+}
+
+
+/* ===================================
+    Contact for
+   ================================= */
+#com-form-login {
+ margin: 0px 10px 10px 10px;
+ background: transparent;
+ overflow: hidden;
+}
+/*
+.ui-datepicker-year {
+  height: 150px;
+}
+*/
+
+#com-form-login  fieldset {
+	border: 1px solid #BBBBBB;
+	padding-top: 20px; 
+    padding-bottom: 20px;
+	color: rgb(0, 0, 0);
+	-moz-border-radius: 4px 4px 4px 4px; 
+}
+
+#com-form-login  #login-links{ 
+  clear: both;
+}
+
+#com-form-login  #login-links li {    
+    padding-left: 120px;
+}
+
+#com-form-login  fieldset legend {
+    text-transform: capitalize; 
+	font-weight: bold; 
+	padding: 0.5em 1em; 
+	border: 1px solid #BBBBBB;
+	-moz-border-radius: 4px 4px 4px 4px; 
+	font-size: 1.2em;
+}
+
+
+#com-form-login label {
+    float: left;
+    line-height: 33px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 0;
+    text-align: right;
+    width: 110px;
+	font-size: 14px;
+	color: #6A6A6A;
+}
+
+#com-form-login p {
+ margin-top: 15px; 
+}
+
+#com-form-login h2 {
+ margin-left: 90px; 
+ margin-bottom: 5px; 
+}
+
+#com-form-login input.inputbox {
+    width: 300px;
+	border: 1px solid #BBBBBB;
+    padding: 8px;
+	-moz-border-radius: 4px 4px 4px 4px;
+}
+
+#com-form-login input.checkbox {
+	border: 1px solid #BBBBBB;
+    margin-top: 8px;
+}
+
+#com-form-login select {
+    border: 1px solid #BBBBBB;
+    padding: 4px 8px 4px 8px;
+    -moz-border-radius: 4px 4px 4px 4px;
+}
+
+#com-form-login textarea {
+    padding: 7px;
+	width: 450px;
+	border: 1px solid #BBBBBB;
+	-moz-border-radius: 4px 4px 4px 4px;
+}
+
+
+
+#com-form-login span.error, #com-form-login span.req {
+    color: red;
+}
+
+#com-form-login p.f-error {text-align:center; color: red; font-size: 16px; border: 1px solid red; padding: 10px 0px 10px 0px;}
+#com-form-login p.showp {display:block;}
+#com-form-login p.hidep{display:none;}
+#com-form-login p.f-notice {text-align:center; color: #F47A20; font-size: 16px; border: 1px solid #F47A20; padding: 10px 0px 10px 0px;}
+
+#com-form-login  input.error, #address.error, #com-form-login  select.error {
+    border: 1px solid red;
+}
+
+textarea .error, #postaladd.error, #comments.error  {
+    border: 1px solid red;
+}
+
+#com-form-login span.comment-error {
+    vertical-align: top;
+}
+
+#com-form-login span.error {
+    display:none;
+}
+
+#com-form-login #responseP {
+	font-size: 14pt;
+	text-align: center;
+    margin:2px 2px 0px 2px;
+    padding: 8px;
+    background-position:left center;
+    display: none;
+}
+
+/* BUTTONS */
+
+#com-form-login  #submit {
+    margin-left: 120px;
+}
+
+
+
+.footer {
+   margin-top: 50px;
+}
+
+.footer a {
+    margin-right: 20px;
+    line-height: 200%;
 }
 
 /* =============================================================================
