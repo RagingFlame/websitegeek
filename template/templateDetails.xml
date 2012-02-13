@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template" method="upgrade">
+	<name>Website Manager</name>
+	<version>4.0.1</version>
+	<creationDate>03 Feb 2012</creationDate>
+	<author>Qawelesizwe Mlilo</author>
+	<authorEmail>qawemlilo@gmail.com</authorEmail>
+	<authorUrl>http://qawemlilo.rflab.co.za/</authorUrl>
+	<copyright>Raging Flame - 2012</copyright>
+	<license>GPL/GNU</license>
+	<description>Custom template for Website Manager site</description>
+    
+    <files>
+	    <folder>css</folder>
+	    <folder>js</folder>
+        <folder>images</folder>
+	    <filename>index.html</filename>
+	    <filename>index.php</filename>
+         <filename>framework.php</filename>
+         <filename>params.ini</filename>
+	    <filename>templateDetails.xml</filename>
+    </files>
+    
+    <positions>
+	    <position>top</position>
+	     <position>banner</position>
+	    <position>sidebar</position>
+	    <position>user1</position>
+	    <position>user2</position>
+	    <position>user3</position>
+    </positions>
+    
+    <params>
+	    <param type="spacer" default="&lt;h3&gt;Pillbox buttons&lt;/h3&gt;" />
+	    <param name="showPillboxes" type="list" default="1" label="Show the Pillbox Buttons" description="Shows the pillboxes on the homepage">
+		  <option value="1">Yes</option>
+		  <option value="0">No</option>
+	    </param>
+	    <param name="mainWidth" type="text" default="500" size="50" label="Content area width" description="Content area width" />
+        <param name="sidebarWidth" type="text" default="400" size="50" label="Sidebar width" description="Sidebar width." />
+	    <param name="loginText" type="textarea" default="Already a member?  access your account now!" label="Login bubble text" rows="3" cols="35" />			    	
+	    <param name="signupText" type="textarea" default="Not a member yet?  Well get on it and access great SEO resources!" label="Signup bubble text" rows="3" cols="35" />
+	    <param type="spacer" default="&lt;h3&gt;General template features&lt;/h3&gt;" />	
+	    <param name="color" type="list" default="green" label="Choose a color theme" description="Determines which CSS file to load to apply the proper color scheme.">
+		    <option value="green">Green</option>
+		    <option value="blue">Blue</option>
+		    <option value="black">Black</option>
+	    </param>	
+	    <param name="bannerModule" type="list" default="0" label="Banner image as a module?" description="Allows the banner image to be controlled with a module (user3 position).  IMPORTANT NOTE!  You will have to style this yourself in the template CSS file.">
+		    <option value="1">Yes</option>
+		    <option value="0">No</option>
+	    </param>		
+	    <param name="bannerImage" type="text" default="templates/usability/images/xid.png" size="50" label="Select a banner" description="Enter the image reference for the banner image to use for the homepage (NOTE:  Only works if the above option is set to NO)" />	
+	    <param name="download" type="text" default="templates/usability/images/freedownload.jpg" size="50" label="Download Box Image" description="Enter in the image reference for the download box image." />
+	    <param name="downloadLink" type="text" default="#" size="50" label="Download Box Link" description="Enter in the link where the download box image will point to." />	
+	    <param name="footerText" type="textarea" default="Copyright 2009" label="Footer Text" description="The footer text area.  NOTE:  You can use HTML"  rows="5" cols="35" />
+    </params>
+</install>
