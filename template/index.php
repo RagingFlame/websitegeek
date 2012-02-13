@@ -87,13 +87,14 @@ $user =& JFactory::getUser();
             <jdoc:include type="modules" name="user2" style="XHTML" />
           <?php endif; ?>
         </section><!-- section#content -->
-        
-        <?php if($this->countModules('clients')) : ?>
-		<section id="clients" style="width: 950px; padding: 5px">
+    </div>
+    <?php if($this->countModules('clients')) : ?>
+    <div id="clients" class="container" style="margin-bottom: 20px">
+		<section class="clients">
             <jdoc:include type="modules" name="clients" style="XHTML" />
         </section><!-- section#clients --> 
-        <?php endif; ?>
     </div>
+    <?php endif; ?>
     
     <footer class="container footer">
         <jdoc:include type="modules" name="footer" style="XHTML" />

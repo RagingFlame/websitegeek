@@ -49,8 +49,8 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
    Links
    ========================================================================== */
 
-a { color: #00e; text-decoration: none;}
-a:visited { color: #551a8b; }
+a { color: #32A2C8; text-decoration: none;}
+a:visited { color: #32A2C8; }  /* #551a8b;  */
 a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: people.opera.com/patrickl/experiments/keyboard/test */
@@ -205,6 +205,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+#main {
+  width: 960px;
+  height: auto;
+}
+
 
 /* ===================================================
 
@@ -350,11 +355,11 @@ ul {
   display: inline-block;
   margin-top: 10px;
   padding: 0px;
-  color: #6e663e;
+  /* color: #6e663e; */
   text-shadow: 0px 1px 0px #ffffff;
 }
 
-.header .navigation a:hover { color: #433b14; }
+/* .header .navigation a:hover { color: #433b14; } */
 
 /* Banner */
 .banner {
@@ -472,11 +477,11 @@ ul {
 /* homepage columns */
 .main-panel {
   margin-right: 60px;
-  padding-top: 35px;
+  padding-top: 30px;
 }
 .right-panel {
   float: right;
-  padding-top: 35px;
+  padding-top: 30px;
 }
 
 .main-panel li {
@@ -657,16 +662,16 @@ textarea .error, #postaladd.error, #comments.error  {
 }
 
 #clients a {
-  margin-right: 20px;
+  margin-right: 140px;
 }
 
 .footer {
-   margin-top: 50px;
+   border-top: 2px solid #474747;
 }
 
 .footer a {
     margin-right: 20px;
-    line-height: 200%;
+    line-height: 150%;
 }
 
 /* =============================================================================
